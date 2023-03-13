@@ -24,7 +24,7 @@
   width: 100px;
 }
 
-.c-3 .line{
+.c-3 .line, .c-5 .line{
   background-color: rgb(44, 62, 80);
   height: 2px;
   width: 100px;
@@ -40,6 +40,13 @@
   width: fit-content;
   padding: 2px 5px;
   border: 1px solid white;
+}
+
+#name, #email, #number, #message{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
 }
 
 .c-6{

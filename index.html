@@ -173,47 +173,45 @@
       <div class="container c-5">
 
         <div class="row justify-content-center pt-5">
-          <div class="col-2 debug">
+          <div class="col-2 fs-4 text-uppercase text-center">
             contact me
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-3 debug">
-            line and star
+          <div class="col-3 d-flex align-items-center justify-content-center gap-3 pt-2">
+            <div class="line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line"></div>
           </div>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-8 debug">
-            name
-          </div>
-        </div>
+        <!--FORM-->
 
-        <div class="row justify-content-center">
-          <div class="col-8 debug">
-            email
-          </div>
-        </div>
+        <form action="#" class="pb-5">
 
-        <div class="row justify-content-center">
-          <div class="col-8 debug">
-            phone
+          <div class="mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Name">
           </div>
-        </div>
 
-        <div class="row justify-content-center">
-          <div class="col-8 debug p-5">
-            message
+          <div class="mb-3">
+            <input type="text" class="form-control" id="email" placeholder="Email Address">
           </div>
-        </div>
 
-        <div class="row justify-content-center pb-5">
-          <div class="col-8 debug">
-            send button
+          <div class="mb-3">
+            <input type="text" class="form-control" id="number" placeholder="Phone Number">
           </div>
-        </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+          </div>
     
+          <div class="col-12">
+            <button class="btn fw-bold tw" type="submit" style="background-color: rgb(26, 188, 156);">Send</button>
+          </div>
+
+        </form>
+
       </div>
       
     </main>
