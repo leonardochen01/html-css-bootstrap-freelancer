@@ -18,7 +18,7 @@
   height: 400px;
 }
 
-.c-2 .line{
+.c-2 .line, .c-4 .line{
   background-color: white;
   height: 2px;
   width: 100px;
@@ -33,6 +33,13 @@
 .c-4{
   background-color: rgb(26, 188, 156);
   min-height: 300px;
+  padding-bottom: 50px;
+}
+
+.c-4 .button{
+  width: fit-content;
+  padding: 2px 5px;
+  border: 1px solid white;
 }
 
 .c-6{
