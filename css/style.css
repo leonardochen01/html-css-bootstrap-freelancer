@@ -24,6 +24,12 @@
   width: 100px;
 }
 
+.c-3 .line{
+  background-color: rgb(44, 62, 80);
+  height: 2px;
+  width: 100px;
+}
+
 .c-4{
   background-color: rgb(26, 188, 156);
   min-height: 300px;
@@ -42,6 +48,7 @@
 .tw{
   color: white;
 }
+
 
 .c-1 h1{
   font-size: 1.2rem;
