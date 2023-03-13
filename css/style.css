@@ -24,12 +24,19 @@
   width: 100px;
 }
 
+.c-2 .col img{
+  height: 180px;
+}
+
 .c-3 .line, .c-5 .line{
   background-color: rgb(44, 62, 80);
   height: 2px;
   width: 100px;
 }
 
+.image img{
+  height: 200px;
+}
 .c-4{
   background-color: rgb(26, 188, 156);
   min-height: 300px;
