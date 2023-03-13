@@ -9,6 +9,10 @@
   height: 50px;
 }
 
+.c-1 .row{
+  height: 50px;
+}
+
 .c-2{
   background-color: rgb(26, 188, 156);
   height: 400px;
@@ -27,4 +31,16 @@
 .c-7{
   background-color: rgb(44, 62, 80);
   height: 50px;
+}
+
+.tw{
+  color: white;
+}
+
+.c-1 h1{
+  font-size: 1.2rem;
+}
+
+.c-1 ul li{
+  font-size: 0.8rem;
 }
