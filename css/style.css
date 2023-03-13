@@ -1,0 +1,30 @@
+
+.debug{
+  background-color: coral;
+  border: 1px solid black;
+}
+
+.c-1{
+  background-color: rgb(44, 62, 80);
+  height: 50px;
+}
+
+.c-2{
+  background-color: rgb(26, 188, 156);
+  height: 400px;
+}
+
+.c-4{
+  background-color: rgb(26, 188, 156);
+  min-height: 300px;
+}
+
+.c-6{
+  background-color: rgb(58, 84, 109);
+  min-height: 100px;
+}
+
+.c-7{
+  background-color: rgb(44, 62, 80);
+  height: 50px;
+}
